@@ -1,7 +1,8 @@
 spring:
   application:
    name: firstSampleService
-
+  profiles:
+    active: dev
 myconfig:
   value: jhpark222
     
