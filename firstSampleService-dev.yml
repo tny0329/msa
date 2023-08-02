@@ -4,8 +4,7 @@ spring:
   profiles:
     active: dev
     
-myconfig:
-  value: jhpark222
+
     
 eureka:
   instance:
@@ -17,7 +16,8 @@ eureka:
     service-url:
       defaultZone: http://192.168.0.46:8761/eureka/
   
-
+myconfig:
+  value: jhpark222
 
 
 
