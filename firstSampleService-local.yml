@@ -3,7 +3,10 @@ spring:
    name: firstSampleService  
   profiles:
     active: local
-    
+  config: 
+    import: optional:configserver:http://localhost:8888
+    use-legacy-processing: true
+        
 eureka:
   instance:
     instance-id: firstSampleService-instance
