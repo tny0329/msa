@@ -1,7 +1,9 @@
 spring:
   application:
    name: firstSampleService  
-  
+  profiles:
+    active: local
+    
 eureka:
   instance:
     instance-id: firstSampleService-instance
@@ -15,5 +17,10 @@ eureka:
 myconfig:
   value: jhpark222
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
 
 
