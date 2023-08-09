@@ -1,14 +1,12 @@
-server:
-  port: 0
-  
+
 spring:
   application:
    name: firstSampleService  
   profiles:
     active: local
-  config: 
-    import: optional:configserver:http://localhost:8888
-    use-legacy-processing: true
+#  config: 
+#    import: optional:configserver:http://localhost:8888
+#    use-legacy-processing: true
         
 eureka:
   instance:
